@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Travel Sale - Next.js Project
+
+![Mockup](public/mockup.png)
+
+This is a modern travel-themed web application built with [Next.js](https://nextjs.org). The project is based on a mockup design from Freepik, which has been translated into code and enhanced with animations, responsiveness, and additional features.
+
+## Features
+
+- **Interactive Animations**: Smooth animations powered by [Framer Motion](https://www.framer.com/motion/).
+- **Responsive Design**: Fully responsive layout for mobile, tablet, and desktop devices.
+- **Modern UI**: Clean and visually appealing design with gradient backgrounds and dynamic elements.
+- **Optimized Performance**: Leveraging Next.js features like image optimization and server-side rendering.
+- **Custom Enhancements**: Improved upon the original mockup with additional sections and interactivity.
+
+## Preview
+
+![Code Preview](public/code.png)
 
 ## Getting Started
 
-First, run the development server:
+To run the project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/travel-sale.git
+   cd travel-sale
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- **`app/`**: Contains the main application files, including `page.tsx` for the homepage and `layout.tsx` for the layout.
+- **`public/`**: Stores static assets like images (`mockup.png`, `code.png`, etc.).
+- **`styles/`**: Global CSS styles for the project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org) - React framework for server-side rendering and static site generation.
+- [Framer Motion](https://www.framer.com/motion/) - For animations and transitions.
+- [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework for styling.
+- [Freepik](https://www.freepik.com) - Source of the original mockup design.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project can be easily deployed on [Vercel](https://vercel.com), the creators of Next.js. Follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push your code to a GitHub repository.
+2. Connect your repository to Vercel.
+3. Deploy your app with a single click.
+
+For more details, check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+
+## Credits
+
+- Mockup design by [Freepik](https://www.freepik.com).
+- Developed and enhanced by Zakaria.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use and modify it as needed.
